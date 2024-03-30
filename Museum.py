@@ -13,8 +13,8 @@ class Museum:
     def __init__(self, name):
         """Initialize a museum with a name."""
         self._name = name
-        self._artworks = []  # Aggregation relationship (Museum aggregates Artwork objects)
-        self._exhibitions = []  # Aggregation relationship (Museum aggregates Exhibition objects)
+        self._artworks = []  
+        self._exhibitions = []  
 
     # Getter method for museum name
     def get_name(self):
