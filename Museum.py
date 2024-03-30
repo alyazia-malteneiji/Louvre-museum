@@ -8,9 +8,6 @@ from Exhibition import Exhibition
 class Museum:
     """
     A class to represent a Museum.
-
-    Aggregation Relationship:
-    The Museum class aggregates Artwork and Exhibition objects.
     """
 
     def __init__(self, name):
